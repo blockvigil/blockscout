@@ -236,7 +236,7 @@ msgid "BlockScout provides analytics data, API, and Smart Contract tools for the
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/chain/show.html.eex:152
+#: lib/block_scout_web/templates/chain/show.html.eex:165
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:34
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:38
 msgid "Blocks"
@@ -253,7 +253,7 @@ msgid "Blockscout is a tool for inspecting and analyzing EVM based blockchains. 
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/address_token/index.html.eex:28
+#: lib/block_scout_web/templates/address_token/index.html.eex:30
 #: lib/block_scout_web/templates/address_transaction/index.html.eex:63
 msgid "CSV"
 msgstr ""
@@ -319,8 +319,8 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/address_transaction/index.html.eex:11
-#: lib/block_scout_web/templates/pending_transaction/index.html.eex:15
-#: lib/block_scout_web/templates/transaction/index.html.eex:22
+#: lib/block_scout_web/templates/pending_transaction/index.html.eex:17
+#: lib/block_scout_web/templates/transaction/index.html.eex:23
 msgid "Connection Lost, click to load newer transactions"
 msgstr ""
 
@@ -463,7 +463,7 @@ msgid "Create2"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/address/overview.html.eex:122
+#: lib/block_scout_web/templates/address/overview.html.eex:126
 msgid "Created by"
 msgstr ""
 
@@ -625,7 +625,7 @@ msgid "Error: (Awaiting internal transactions for reason)"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/address/overview.html.eex:135
+#: lib/block_scout_web/templates/address/overview.html.eex:139
 msgid "Error: Could not determine contract creator."
 msgstr ""
 
@@ -794,7 +794,7 @@ msgid "Telegram"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/tokens/holder/index.html.eex:25
+#: lib/block_scout_web/templates/tokens/holder/index.html.eex:27
 msgid "There are no holders for this Token."
 msgstr ""
 
@@ -805,12 +805,12 @@ msgstr ""
 
 #, elixir-format
 #:
-#: lib/block_scout_web/templates/transaction_internal_transaction/index.html.eex:15
+#: lib/block_scout_web/templates/transaction_internal_transaction/index.html.eex:17
 msgid "There are no internal transactions for this transaction."
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/transaction_log/index.html.eex:18
+#: lib/block_scout_web/templates/transaction_log/index.html.eex:20
 msgid "There are no logs for this transaction."
 msgstr ""
 
@@ -820,12 +820,12 @@ msgid "There are no token transfers for this address."
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/address_token/index.html.eex:18
+#: lib/block_scout_web/templates/address_token/index.html.eex:20
 msgid "There are no tokens for this address."
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/tokens/inventory/index.html.eex:25
+#: lib/block_scout_web/templates/tokens/inventory/index.html.eex:27
 msgid "There are no tokens."
 msgstr ""
 
@@ -840,8 +840,8 @@ msgid "There are no transactions for this block."
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/tokens/instance/transfer/index.html.eex:26
-#: lib/block_scout_web/templates/tokens/transfer/index.html.eex:24
+#: lib/block_scout_web/templates/tokens/instance/transfer/index.html.eex:28
+#: lib/block_scout_web/templates/tokens/transfer/index.html.eex:26
 msgid "There are no transfers for this Token."
 msgstr ""
 
@@ -892,6 +892,7 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/address/_tabs.html.eex:11
+#: lib/block_scout_web/templates/address_token_transfer/index.html.eex:17
 #: lib/block_scout_web/templates/tokens/instance/overview/_tabs.html.eex:3
 #: lib/block_scout_web/templates/tokens/instance/transfer/index.html.eex:16
 #: lib/block_scout_web/templates/tokens/overview/_tabs.html.eex:3
@@ -959,7 +960,7 @@ msgid "It could still be in the TX Pool of a different node, waiting to be broad
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/address/overview.html.eex:107
+#: lib/block_scout_web/templates/address/overview.html.eex:111
 msgid "Last Balance Update: Block #"
 msgstr ""
 
@@ -1064,9 +1065,9 @@ msgid "More internal transactions have come in"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/chain/show.html.eex:213
-#: lib/block_scout_web/templates/pending_transaction/index.html.eex:10
-#: lib/block_scout_web/templates/transaction/index.html.eex:17
+#: lib/block_scout_web/templates/chain/show.html.eex:226
+#: lib/block_scout_web/templates/pending_transaction/index.html.eex:12
+#: lib/block_scout_web/templates/transaction/index.html.eex:18
 msgid "More transactions have come in"
 msgstr ""
 
@@ -1172,7 +1173,7 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/address/overview.html.eex:59
-#: lib/block_scout_web/templates/address/overview.html.eex:159
+#: lib/block_scout_web/templates/address/overview.html.eex:163
 #: lib/block_scout_web/templates/tokens/instance/overview/_details.html.eex:51
 #: lib/block_scout_web/templates/tokens/instance/overview/_details.html.eex:101
 #: lib/block_scout_web/templates/tokens/overview/_details.html.eex:36
@@ -1303,27 +1304,27 @@ msgstr ""
 #: lib/block_scout_web/templates/address_coin_balance/index.html.eex:36
 #: lib/block_scout_web/templates/address_internal_transaction/index.html.eex:52
 #: lib/block_scout_web/templates/address_logs/index.html.eex:21
-#: lib/block_scout_web/templates/address_token/index.html.eex:13
+#: lib/block_scout_web/templates/address_token/index.html.eex:15
 #: lib/block_scout_web/templates/address_token_transfer/index.html.eex:56
 #: lib/block_scout_web/templates/address_transaction/index.html.eex:48
 #: lib/block_scout_web/templates/address_validation/index.html.eex:22
 #: lib/block_scout_web/templates/block_transaction/index.html.eex:23
-#: lib/block_scout_web/templates/chain/show.html.eex:156
-#: lib/block_scout_web/templates/pending_transaction/index.html.eex:19
+#: lib/block_scout_web/templates/chain/show.html.eex:169
+#: lib/block_scout_web/templates/pending_transaction/index.html.eex:21
 #: lib/block_scout_web/templates/stakes/_table.html.eex:44
-#: lib/block_scout_web/templates/tokens/holder/index.html.eex:20
-#: lib/block_scout_web/templates/tokens/instance/transfer/index.html.eex:21
-#: lib/block_scout_web/templates/tokens/inventory/index.html.eex:20
-#: lib/block_scout_web/templates/tokens/transfer/index.html.eex:19
-#: lib/block_scout_web/templates/transaction/index.html.eex:27
-#: lib/block_scout_web/templates/transaction_internal_transaction/index.html.eex:11
-#: lib/block_scout_web/templates/transaction_log/index.html.eex:13
-#: lib/block_scout_web/templates/transaction_token_transfer/index.html.eex:12
+#: lib/block_scout_web/templates/tokens/holder/index.html.eex:22
+#: lib/block_scout_web/templates/tokens/instance/transfer/index.html.eex:23
+#: lib/block_scout_web/templates/tokens/inventory/index.html.eex:22
+#: lib/block_scout_web/templates/tokens/transfer/index.html.eex:21
+#: lib/block_scout_web/templates/transaction/index.html.eex:28
+#: lib/block_scout_web/templates/transaction_internal_transaction/index.html.eex:13
+#: lib/block_scout_web/templates/transaction_log/index.html.eex:15
+#: lib/block_scout_web/templates/transaction_token_transfer/index.html.eex:14
 msgid "Something went wrong, click to reload."
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/chain/show.html.eex:219
+#: lib/block_scout_web/templates/chain/show.html.eex:232
 msgid "Something went wrong, click to retry."
 msgstr ""
 
@@ -1363,7 +1364,7 @@ msgid "There are no blocks validated by this address."
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/block/index.html.eex:18
+#: lib/block_scout_web/templates/block/index.html.eex:20
 msgid "There are no blocks."
 msgstr ""
 
@@ -1373,17 +1374,17 @@ msgid "There are no logs for this address."
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/pending_transaction/index.html.eex:23
+#: lib/block_scout_web/templates/pending_transaction/index.html.eex:25
 msgid "There are no pending transactions."
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/transaction_token_transfer/index.html.eex:17
+#: lib/block_scout_web/templates/transaction_token_transfer/index.html.eex:19
 msgid "There are no token transfers for this transaction"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/transaction/index.html.eex:33
+#: lib/block_scout_web/templates/transaction/index.html.eex:34
 msgid "There are no transactions."
 msgstr ""
 
@@ -1452,7 +1453,7 @@ msgid "Total Supply"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/chain/show.html.eex:127
+#: lib/block_scout_web/templates/chain/show.html.eex:140
 msgid "Total blocks"
 msgstr ""
 
@@ -1592,12 +1593,12 @@ msgid "Version"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/chain/show.html.eex:151
+#: lib/block_scout_web/templates/chain/show.html.eex:164
 msgid "View All Blocks"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/chain/show.html.eex:209
+#: lib/block_scout_web/templates/chain/show.html.eex:222
 msgid "View All Transactions"
 msgstr ""
 
@@ -1639,7 +1640,7 @@ msgid "WEI"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/chain/show.html.eex:135
+#: lib/block_scout_web/templates/chain/show.html.eex:148
 msgid "Wallet addresses"
 msgstr ""
 
@@ -1657,7 +1658,7 @@ msgid "Yes"
 msgstr ""
 
 #, elixir-format
-#: lib/block_scout_web/templates/address/overview.html.eex:127
+#: lib/block_scout_web/templates/address/overview.html.eex:131
 msgid "at"
 msgstr ""
 
@@ -1715,8 +1716,8 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/address/_validator_metadata_modal.html.eex:37
-#: lib/block_scout_web/templates/address/overview.html.eex:160
-#: lib/block_scout_web/templates/address/overview.html.eex:168
+#: lib/block_scout_web/templates/address/overview.html.eex:164
+#: lib/block_scout_web/templates/address/overview.html.eex:172
 #: lib/block_scout_web/templates/tokens/instance/overview/_details.html.eex:102
 #: lib/block_scout_web/templates/tokens/instance/overview/_details.html.eex:110
 #: lib/block_scout_web/templates/tokens/overview/_details.html.eex:122
@@ -1863,11 +1864,10 @@ msgstr ""
 
 #, elixir-format
 #: lib/block_scout_web/templates/address/_tabs.html.eex:5
-#: lib/block_scout_web/templates/address_token_transfer/index.html.eex:17
 #: lib/block_scout_web/templates/address_transaction/index.html.eex:15
 #: lib/block_scout_web/templates/block_transaction/index.html.eex:10
 #: lib/block_scout_web/templates/block_transaction/index.html.eex:18
-#: lib/block_scout_web/templates/chain/show.html.eex:210
+#: lib/block_scout_web/templates/chain/show.html.eex:223
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:53
 #: lib/block_scout_web/views/address_view.ex:349
 msgid "Transactions"
