@@ -1,15 +1,28 @@
 ## Current
 
 ### Features
+- [#3420](https://github.com/poanetwork/blockscout/pull/3420) - Enable read/write proxy tabs for Gnosis safe proxy contract
+- [#3411](https://github.com/poanetwork/blockscout/pull/3411) - Circles UBI theme
+- [#3406](https://github.com/poanetwork/blockscout/pull/3406), [#3409](https://github.com/poanetwork/blockscout/pull/3409) - Adding mp4 files support for NFTs
+- [#3398](https://github.com/poanetwork/blockscout/pull/3398) - Collect and display gas usage per day at the main page
+- [#3385](https://github.com/poanetwork/blockscout/pull/3385), [#3397](https://github.com/poanetwork/blockscout/pull/3397) - Total gas usage at the main page
 - [#3384](https://github.com/poanetwork/blockscout/pull/3384), [#3386](https://github.com/poanetwork/blockscout/pull/3386) - Address total gas usage
 - [#3377](https://github.com/poanetwork/blockscout/pull/3377) - Add links to contract libraries
 - [#2292](https://github.com/poanetwork/blockscout/pull/2292), [#3356](https://github.com/poanetwork/blockscout/pull/3356), [#3359](https://github.com/poanetwork/blockscout/pull/3359), [#3360](https://github.com/poanetwork/blockscout/pull/3360), [#3365](https://github.com/poanetwork/blockscout/pull/3365) - Add Web UI for POSDAO Staking DApp
 - [#3354](https://github.com/poanetwork/blockscout/pull/3354) - Tx hash in EOA coin balance history
-- [#3333](https://github.com/poanetwork/blockscout/pull/3333), [#3337](https://github.com/poanetwork/blockscout/pull/3337) - Dark forest contract custom theme
+- [#3333](https://github.com/poanetwork/blockscout/pull/3333), [#3337](https://github.com/poanetwork/blockscout/pull/3337), [#3393](https://github.com/poanetwork/blockscout/pull/3393) - Dark forest contract custom theme
 - [#3330](https://github.com/poanetwork/blockscout/pull/3330) - Caching of address transactions counter, remove query 10_000 rows limit
 
 
 ### Fixes
+- [#3428](https://github.com/poanetwork/blockscout/pull/3428) - Fix address tokens search
+- [#3424](https://github.com/poanetwork/blockscout/pull/3424) - Fix display of long NFT IDs
+- [#3422](https://github.com/poanetwork/blockscout/pull/3422) - Fix contract reader: tuple type
+- [#3408](https://github.com/poanetwork/blockscout/pull/3408) - Fix (total) difficulty display
+- [#3401](https://github.com/poanetwork/blockscout/pull/3401), [#3432](https://github.com/poanetwork/blockscout/pull/3432) - Fix procedure of marking internal transactions as failed
+- [#3400](https://github.com/poanetwork/blockscout/pull/3400) - Add :last_block_number realtime chain event
+- [#3399](https://github.com/poanetwork/blockscout/pull/3399) - Fix Token transfers CSV export
+- [#3396](https://github.com/poanetwork/blockscout/pull/3396) - Handle exchange rates request throttled
 - [#3382](https://github.com/poanetwork/blockscout/pull/3382) - Check ets table exists for know tokens
 - [#3376](https://github.com/poanetwork/blockscout/pull/3376) - Fix contract nested inputs
 - [#3375](https://github.com/poanetwork/blockscout/pull/3375) - Prevent terminating of tokens/contracts process
@@ -31,6 +44,14 @@
 - [#3335](https://github.com/poanetwork/blockscout/pull/3335) - MarketCap calculation: check that ETS tables exist before inserting new data or lookup from the table
 
 ### Chore
+- [#3431](https://github.com/poanetwork/blockscout/pull/3431) - Standardize token name definition, if name is empty
+- [#3421](https://github.com/poanetwork/blockscout/pull/3421) - Functions to enable GnosisSafe app link
+- [#3414](https://github.com/poanetwork/blockscout/pull/3414) - Manage lis of other explorers in the footer via env var
+- [#3407](https://github.com/poanetwork/blockscout/pull/3407) - Add EthereumJSONRPC.HTTP.HTTPoison.json_rpc function clause when URL is null
+- [#3405](https://github.com/poanetwork/blockscout/pull/3405) - N/A instead of 0 for market cap if it is not fetched
+- [#3404](https://github.com/poanetwork/blockscout/pull/3404) - DISABLE_KNOWN_TOKENS env var
+- [#3403](https://github.com/poanetwork/blockscout/pull/3403) - Refactor Coingecko interaction
+- [#3394](https://github.com/poanetwork/blockscout/pull/3394) - Actualize docker vars list
 - [#3372](https://github.com/poanetwork/blockscout/pull/3372), [#3380](https://github.com/poanetwork/blockscout/pull/3380) - Improve all lists header container
 - [#3371](https://github.com/poanetwork/blockscout/pull/3371) - Eliminate dark background except Dark forest theme
 - [#3366](https://github.com/poanetwork/blockscout/pull/3366) - Stabilize tests execution in Github Actions CI
